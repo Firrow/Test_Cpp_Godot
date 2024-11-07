@@ -1,15 +1,17 @@
 #ifndef PERSONNAGE_H
 #define PERSONNAGE_H
 
-#include <godot_cpp/classes/sprite2d.hpp>
+#include <godot_cpp/classes/object.hpp>
 
 namespace godot {
 
-	class Personnage {
+	class Personnage : public Object {
+		GDCLASS(Personnage, Object);
 	
 	private:
 	
 	protected:
+		static void _bind_methods();
 	
 	public:
 		Personnage();
