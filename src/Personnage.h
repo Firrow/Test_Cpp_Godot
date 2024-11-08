@@ -18,6 +18,9 @@ namespace godot {
 	public:
 		Personnage();
 		~Personnage();
+
+		void _ready() override;
+		void _process(double delta) override;
 	};
 
 }
