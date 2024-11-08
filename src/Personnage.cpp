@@ -12,6 +12,7 @@ void Personnage::_bind_methods() {
 
 // CONSTRUCTEUR
 Personnage::Personnage() {
+    UtilityFunctions::print("Bonjour depuis GDExtension avec C++ !");
 }
 
 // DESTRUCTEUR
