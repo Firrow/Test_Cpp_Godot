@@ -1,12 +1,14 @@
 #ifndef PERSONNAGE_H
 #define PERSONNAGE_H
 
-#include <godot_cpp/classes/object.hpp>
+//#include <godot_cpp/classes/object.hpp>
+//#include <godot_cpp/classes/sprite2d.hpp>
+#include <godot_cpp\classes\character_body2d.hpp>
 
 namespace godot {
 
-	class Personnage : public Object {
-		GDCLASS(Personnage, Object);
+	class Personnage : public CharacterBody2D {
+		GDCLASS(Personnage, CharacterBody2D);
 	
 	private:
 	
@@ -22,4 +24,5 @@ namespace godot {
 
 #endif
 
-//VOIR POUR FAIRE EN SORTE D'AJOUTER UN NOEUD DANS LA HIÉRARCHIE
+// ~~~AJOUTER UN NOEUD HÉRITÉ D'UN AUTRE DANS LA HIÉRARCHIE
+// AJOUTER UN NOEUD SANS PARENT (Object) DANS LA HIÉRARCHIE

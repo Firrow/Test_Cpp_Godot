@@ -1,0 +1,25 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Godot Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "C:\\Program Files\\Godot\\Godot_v4.3-stable_win64.exe",
+            "args": ["--path", 
+            "C:\\Users\\manon\\Documents\\PROGRAMMATION\\TestMoteurCplusplus\\TestGodot\\Test_Cpp_Godot\\src",
+            "C:\\Users\\manon\\Documents\\PROGRAMMATION\\TestMoteurCplusplus\\TestGodot\\Test_Cpp_Godot\\first_project_gd_cpp\\Main.tscn"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "stopAtEntry": false,
+            "cwd": "C:\\Users\\manon\\Documents\\PROGRAMMATION\\TestMoteurCplusplus\\TestGodot\\Test_Cpp_Godot\\first_project_gd_cpp",
+            "environment": [],
+            "console": "internalConsole",
+            //"visualizerFile": "${workspaceFolder}/platform/windows/godot.natvis",
+            "preLaunchTask": "build"
+        }
+    ]
+}

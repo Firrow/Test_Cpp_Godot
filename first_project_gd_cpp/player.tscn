@@ -2,4 +2,8 @@
 
 [node name="Player" type="Node2D"]
 
-[node name="Node" type="Node" parent="."]
+[node name="Personnage" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Personnage"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Personnage"]
